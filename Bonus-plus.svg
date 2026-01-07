@@ -63,11 +63,13 @@
        L 10.523 10.837 Q 11.095 10.754 11.35 10.236
        Z"/>
 
-  <!-- BADGE (top-right): green check -->
-  <g filter="url(#bp_plus_badgeShadow)">
-    <circle cx="18.7" cy="6.0" r="2.35" fill="#2E9B57"/>
-    <path d="M17.55 6.05 L18.15 6.70 L19.90 4.95"
-      fill="none" stroke="#FFFFFF" stroke-width="0.55"
-      stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="10"/>
-  </g>
+  <!-- PLUS badge (top-right): big green circle + white check) -->
+<g filter="url(#bp_plus_badgeShadow)">
+  <circle cx="18.7" cy="6.0" r="5.15" fill="#2E9B57"/>
+
+  <!-- scaled-up checkmark (from your small version) -->
+  <path d="M16.18 6.11 L17.50 7.54 L21.34 3.70"
+        fill="none" stroke="#FFFFFF" stroke-width="0.55"
+        stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="10"/>
+</g>
 </svg>
