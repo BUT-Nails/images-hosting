@@ -66,10 +66,10 @@
 <!-- PENDING badge (top-right): yellow background + white spinner (based on your 512 SVG) -->
 <g filter="url(#bp_pend_badgeShadow)">
   <!-- yellow background -->
-  <circle cx="18.7" cy="6.0" r="2.35" fill="#F59E0B"/>
+  <circle cx="18.7" cy="6.0" r="5.15" fill="#F59E0B"/>
 
   <!-- spinner strokes (scaled from 512 to fit badge) -->
-  <g transform="translate(18.7 6.0) scale(0.0062) translate(-256 -256)"
+  <g transform="translate(18.7 6.0) scale(0.0202) translate(-256 -256)"
      fill="none" stroke="#FFFFFF" stroke-width="33.1"
      stroke-linecap="round" stroke-linejoin="round">
     <g transform="translate(155.055 155.056)">
