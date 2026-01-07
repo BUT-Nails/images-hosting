@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+  viewBox="0 0 24 24" fill="none" aria-hidden="true">
+
+  <defs>
+    <radialGradient id="bp_plus_rim" cx="35%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#F0E3DA"/>
+      <stop offset="0.45" stop-color="#C7AD9E"/>
+      <stop offset="1" stop-color="#866657"/>
+    </radialGradient>
+
+    <radialGradient id="bp_plus_face" cx="35%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#FBF3ED"/>
+      <stop offset="0.55" stop-color="#E3D2C7"/>
+      <stop offset="1" stop-color="#C1A89B"/>
+    </radialGradient>
+
+    <radialGradient id="bp_plus_star" cx="35%" cy="30%" r="85%">
+      <stop offset="0" stop-color="#C49A85"/>
+      <stop offset="0.7" stop-color="#A17864"/>
+      <stop offset="1" stop-color="#775848"/>
+    </radialGradient>
+
+    <filter id="bp_plus_coinShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0.5" stdDeviation="0.55" flood-color="#000" flood-opacity="0.14"/>
+    </filter>
+
+    <filter id="bp_plus_badgeShadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0.25" stdDeviation="0.35" flood-color="#000" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <!-- COIN -->
+  <g filter="url(#bp_plus_coinShadow)">
+    <path fill="url(#bp_plus_rim)" fill-rule="evenodd"
+      d="M12 2.5 a 9.5 9.5 0 1 0 0 19 a 9.5 9.5 0 1 0 0 -19 Z
+         M12 4.7 a 7.3 7.3 0 1 1 0 14.6 a 7.3 7.3 0 1 1 0 -14.6 Z"/>
+    <circle cx="12" cy="12" r="7.05" fill="url(#bp_plus_face)"/>
+    <circle cx="12" cy="12" r="7.25" fill="none" stroke="#6F5142" stroke-opacity="0.14" stroke-width="0.7"/>
+  </g>
+
+  <!-- STAR -->
+  <path fill="url(#bp_plus_star)" stroke="none" fill-rule="evenodd"
+    d="M 11.358 5.572 Q 12 4.272 12.642 5.572
+       L 13.63 7.574 Q 14.271 8.874 15.705 9.083
+       L 17.916 9.404 Q 19.35 9.613 18.312 10.624
+       L 16.714 12.178 Q 15.675 13.194 15.919 14.622
+       L 16.297 16.824 Q 16.543 18.25 15.258 17.577
+       L 13.281 16.538 Q 12 15.865 10.719 16.538
+       L 8.742 17.577 Q 7.457 18.25 7.703 16.824
+       L 8.081 14.622 Q 8.325 13.194 7.286 12.178
+       L 5.688 10.624 Q 4.65 9.613 6.084 9.404
+       L 8.295 9.083 Q 9.729 8.874 10.37 7.574
+       Z
+       M 11.744 9.438 Q 12 8.92 12.256 9.438
+       L 12.65 10.236 Q 12.905 10.754 13.477 10.837
+       L 14.358 10.965 Q 14.929 11.048 14.51 11.454
+       L 13.873 12.074 Q 13.454 12.48 13.552 13.053
+       L 13.703 13.924 Q 13.801 14.496 13.282 14.226
+       L 12.484 13.806 Q 12 13.556 11.516 13.806
+       L 10.718 14.226 Q 10.199 14.496 10.297 13.924
+       L 10.448 13.053 Q 10.546 12.48 10.127 12.074
+       L 9.49 11.454 Q 9.071 11.048 9.642 10.965
+       L 10.523 10.837 Q 11.095 10.754 11.35 10.236
+       Z"/>
+
+  <!-- BADGE (top-right): green check -->
+  <g filter="url(#bp_plus_badgeShadow)">
+    <circle cx="18.7" cy="6.0" r="2.35" fill="#2E9B57"/>
+    <path d="M17.55 6.05 L18.15 6.70 L19.90 4.95"
+      fill="none" stroke="#FFFFFF" stroke-width="0.55"
+      stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  </g>
+</svg>
